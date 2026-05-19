@@ -28,7 +28,7 @@ I am a B.Tech Computer Science student at Poornima College of Engineering, Jaipu
 
 ## Daily Update
 
-Last updated automatically: <!-- LAST_UPDATED -->
+Last updated automatically: Not synced yet <!-- LAST_UPDATED -->
 
 ## Currently Learning
 

@@ -18,8 +18,8 @@ jobs:
 
       - name: Update timestamp
         run: |
-          current_date=$(date -u '+%Y-%m-%d %H:%M UTC')
-          sed -i "s|<!-- LAST_UPDATED -->|${current_date}|" README.md
+          current_date=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M IST')
+          sed -E -i "s|^Last updated automatically:.*<!-- LAST_UPDATED -->$|Last updated automatically: ${current_date} <!-- LAST_UPDATED -->|" README.md
 
       - name: Commit changes
         run: |
